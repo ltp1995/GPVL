@@ -1,0 +1,15 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/visvalingamwyatt/__init__.py
+src/visvalingamwyatt/__main__.py
+src/visvalingamwyatt/visvalingamwyatt.py
+src/visvalingamwyatt.egg-info/PKG-INFO
+src/visvalingamwyatt.egg-info/SOURCES.txt
+src/visvalingamwyatt.egg-info/dependency_links.txt
+src/visvalingamwyatt.egg-info/entry_points.txt
+src/visvalingamwyatt.egg-info/requires.txt
+src/visvalingamwyatt.egg-info/top_level.txt
+src/visvalingamwyatt.egg-info/zip-safe

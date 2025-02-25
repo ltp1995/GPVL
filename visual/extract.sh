@@ -1,0 +1,2 @@
+#CUDA_VISIBLE_DEVICES=1 python tools/test.py projects/configs/VAD/VAD_tiny_e2e.py /root/data1/ltp/codes/ad/VAD/data/nuscenes/VAD_tiny.pth --launcher none --eval bbox --tmpdir tmp
+CUDA_VISIBLE_DEVICES=1 python tools/test.py projects/configs/VAD/VAD_base_e2e.py /root/data1/ltp/codes/ad/VAD/data/nuscenes/VAD_base.pth --launcher none --eval bbox --tmpdir tmp

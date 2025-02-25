@@ -1,0 +1,22 @@
+# This file is part of visvalingamwyatt.
+# https://github.com/fitnr/visvalingamwyatt
+[build-system]
+requires = ["setuptools>=60.5.0", "wheel"]
+build-backend = 'setuptools.build_meta'
+
+[tool.black]
+max-line-length = 100
+skip-string-normalization = true
+target-version = [
+	"py39",
+	"py310",
+	"py311",
+	"py312",
+	]
+
+[tool.pylint."MESSAGES CONTROL"]
+disable = ["C0103"]
+max-line-length = 100
+
+[tool.isort]
+profile = "black"
