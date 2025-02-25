@@ -39,7 +39,8 @@ The proposed GPVL is compared with several state-of-the-art autonomous driving m
 
 ### Data preparation
 #### make the prompts of detection, motion, map and global labels
-download the map infos from [google cloud](https://drive.google.com/file/d/1Vb46hXNVAGTXn6-x2f9DNsx99LgMtwc1/view?usp=drive_link) and then
+download the map infos from [google cloud](https://drive.google.com/file/d/1Vb46hXNVAGTXn6-x2f9DNsx99LgMtwc1/view?usp=drive_link) 
+
 python ./tools/det_motion_map_labels.py
 #### extract the detection, motion and map features
 bash visual/extract.sh
