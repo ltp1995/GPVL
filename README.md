@@ -1,7 +1,7 @@
 # Generative Planning with 3D-vision Language Pre-training for End-to-End Autonomous Driving (GPVL-AAAI2025)
 ## 🔥 News
-- [x] `2025-2-25` Training and Inference codes, Annotation of GPVL released.
-- [x] `2024-12-10` LSceneLLM is accepted by AAAI 2025!
+- [x] `2025-02-25` Training and Inference codes, Annotation of GPVL released.
+- [x] `2024-12-10` GPVL is accepted by AAAI 2025!
 
 ## Overview:
 Autonomous driving is a challenging task that requires perceiving and understanding the surrounding environment for safe trajectory planning. While existing vision-based end-to-end models have achieved promising results, these methods are still facing the challenges of vision understanding, decision reasoning and scene generalization. To solve these issues, a generative planning with 3D-vision language pre-training model named GPVL is proposed for end-to-end autonomous driving. The proposed paradigm has two significant aspects. On one hand, a 3D-vision language pre-training module is designed to bridge the gap between visual perception and linguistic understanding in the bird's eye view. On the other hand, a cross-modal language model is introduced to generate holistic driving decisions and fine-grained trajectories with perception and navigation information in an auto-regressive manner. Experiments on the challenging nuScenes dataset demonstrate that the proposed scheme achieves excellent performances compared with state-of-the-art methods. Besides, the proposed GPVL presents strong generalization ability and real-time potential when handling high-level commands in various scenarios. It is believed that the effective, robust and efficient performance of GPVL is crucial for the practical application of future autonomous driving systems.
