@@ -52,6 +52,7 @@ bash visual/extract.sh
 download the weights from [google cloud](https://drive.google.com/file/d/1KyqOzQIzNcL1Q9uEGmDECHfU-8CCd4kk/view)
 #### det-motion-map labels [optional]
 directly download the preprocessed labels from [google_cloud](https://drive.google.com/file/d/1E4X20n9ffAY5JhsB7mTxDDcm9OWUkN9L/view?usp=drive_link) and put it into datasets folder
+and the train_val_cmds.pickle from [google_cloud](https://drive.google.com/file/d/18UWuqzsf1Pzh1oCvx4yZsAruXC0FngBJ/view?usp=drive_link)
 
 ### 3D-vision-language training
 bash scripts/pretrain.sh
