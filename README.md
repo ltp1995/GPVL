@@ -66,10 +66,13 @@ python visual/test_by_pred_results.py
 ## Citation
 If you find GPVL useful in your research or applications, please consider giving us a star 🌟 and citing it by the following BibTeX entry.
 ```
-@article{li2025generative,
-  title={Generative Planning with 3D-vision Language Pre-training for End-to-End Autonomous Driving},
+@inproceedings{li2025generative,
+  title={Generative planning with 3d-vision language pre-training for end-to-end autonomous driving},
   author={Li, Tengpeng and Wang, Hanli and Li, Xianfei and Liao, Wenlong and He, Tao and Peng, Pai},
-  journal={arXiv preprint arXiv:2501.08861},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={39},
+  number={5},
+  pages={4950--4958},
   year={2025}
 }
 ```
